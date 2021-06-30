@@ -1,0 +1,2122 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR0122
+U 1 1 60C0EDBB
+P 850 1450
+F 0 "#PWR0122" H 850 1200 50  0001 C CNN
+F 1 "GND" H 855 1277 50  0000 C CNN
+F 2 "" H 850 1450 50  0001 C CNN
+F 3 "" H 850 1450 50  0001 C CNN
+	1    850  1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 60C0F87E
+P 1050 1650
+F 0 "#PWR0123" H 1050 1400 50  0001 C CNN
+F 1 "GND" H 1055 1477 50  0000 C CNN
+F 2 "" H 1050 1650 50  0001 C CNN
+F 3 "" H 1050 1650 50  0001 C CNN
+	1    1050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 60C1054D
+P 850 2050
+F 0 "#PWR0124" H 850 1800 50  0001 C CNN
+F 1 "GND" H 855 1877 50  0000 C CNN
+F 2 "" H 850 2050 50  0001 C CNN
+F 3 "" H 850 2050 50  0001 C CNN
+	1    850  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 60C1112E
+P 1050 2250
+F 0 "#PWR0125" H 1050 2000 50  0001 C CNN
+F 1 "GND" H 1055 2077 50  0000 C CNN
+F 2 "" H 1050 2250 50  0001 C CNN
+F 3 "" H 1050 2250 50  0001 C CNN
+	1    1050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0130
+U 1 1 60C15588
+P 1600 1450
+F 0 "#PWR0130" H 1600 1300 50  0001 C CNN
+F 1 "+5V" H 1615 1623 50  0000 C CNN
+F 2 "" H 1600 1450 50  0001 C CNN
+F 3 "" H 1600 1450 50  0001 C CNN
+	1    1600 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP2
+U 1 1 60C15582
+P 1600 1350
+F 0 "HP2" H 1700 1353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 1308 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 1350 50  0001 C CNN
+F 3 "~" H 1600 1350 50  0001 C CNN
+	1    1600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0119
+U 1 1 60BFD49E
+P 1600 900
+F 0 "#PWR0119" H 1600 750 50  0001 C CNN
+F 1 "+5V" H 1615 1073 50  0000 C CNN
+F 2 "" H 1600 900 50  0001 C CNN
+F 3 "" H 1600 900 50  0001 C CNN
+	1    1600 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP1
+U 1 1 60BFBC97
+P 1600 800
+F 0 "HP1" H 1700 803 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 758 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 800 50  0001 C CNN
+F 3 "~" H 1600 800 50  0001 C CNN
+	1    1600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP8
+U 1 1 60C471F4
+P 1800 1550
+F 0 "HP8" H 1900 1553 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 1508 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 1550 50  0001 C CNN
+F 3 "~" H 1800 1550 50  0001 C CNN
+	1    1800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0136
+U 1 1 60C471FA
+P 1800 1100
+F 0 "#PWR0136" H 1800 950 50  0001 C CNN
+F 1 "+5V" H 1815 1273 50  0000 C CNN
+F 2 "" H 1800 1100 50  0001 C CNN
+F 3 "" H 1800 1100 50  0001 C CNN
+	1    1800 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP7
+U 1 1 60C47200
+P 1800 1000
+F 0 "HP7" H 1900 1003 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 958 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 1000 50  0001 C CNN
+F 3 "~" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 60C661BE
+P 850 2650
+F 0 "#PWR0137" H 850 2400 50  0001 C CNN
+F 1 "GND" H 855 2477 50  0000 C CNN
+F 2 "" H 850 2650 50  0001 C CNN
+F 3 "" H 850 2650 50  0001 C CNN
+	1    850  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 60C661CA
+P 1050 2850
+F 0 "#PWR0138" H 1050 2600 50  0001 C CNN
+F 1 "GND" H 1055 2677 50  0000 C CNN
+F 2 "" H 1050 2850 50  0001 C CNN
+F 3 "" H 1050 2850 50  0001 C CNN
+	1    1050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 60C661D6
+P 850 3250
+F 0 "#PWR0139" H 850 3000 50  0001 C CNN
+F 1 "GND" H 855 3077 50  0000 C CNN
+F 2 "" H 850 3250 50  0001 C CNN
+F 3 "" H 850 3250 50  0001 C CNN
+	1    850  3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 60C661E2
+P 1050 3450
+F 0 "#PWR0140" H 1050 3200 50  0001 C CNN
+F 1 "GND" H 1055 3277 50  0000 C CNN
+F 2 "" H 1050 3450 50  0001 C CNN
+F 3 "" H 1050 3450 50  0001 C CNN
+	1    1050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0141
+U 1 1 60C661EE
+P 850 3850
+F 0 "#PWR0141" H 850 3600 50  0001 C CNN
+F 1 "GND" H 855 3677 50  0000 C CNN
+F 2 "" H 850 3850 50  0001 C CNN
+F 3 "" H 850 3850 50  0001 C CNN
+	1    850  3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1650 7550 1650
+Wire Wire Line
+	5050 1650 5450 1650
+Wire Wire Line
+	4050 1650 4450 1650
+Wire Wire Line
+	3050 1650 3450 1650
+$Comp
+L power:GND #PWR0118
+U 1 1 60BD59DC
+P 7850 1950
+F 0 "#PWR0118" H 7850 1700 50  0001 C CNN
+F 1 "GND" H 7855 1777 50  0000 C CNN
+F 2 "" H 7850 1950 50  0001 C CNN
+F 3 "" H 7850 1950 50  0001 C CNN
+	1    7850 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 950 
+$Comp
+L Device:C C6
+U 1 1 60BD59D5
+P 7400 1100
+F 0 "C6" H 7515 1146 50  0000 L CNN
+F 1 "C" H 7515 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7400 1100 50  0001 C CNN
+F 3 "~" H 7400 1100 50  0001 C CNN
+	1    7400 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 950  7850 1350
+Wire Wire Line
+	7400 950  7850 950 
+$Comp
+L power:GND #PWR0117
+U 1 1 60BD59CD
+P 7400 1250
+F 0 "#PWR0117" H 7400 1000 50  0001 C CNN
+F 1 "GND" H 7405 1077 50  0000 C CNN
+F 2 "" H 7400 1250 50  0001 C CNN
+F 3 "" H 7400 1250 50  0001 C CNN
+	1    7400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 60BD59C7
+P 7400 950
+F 0 "#PWR0116" H 7400 800 50  0001 C CNN
+F 1 "+5V" H 7415 1123 50  0000 C CNN
+F 2 "" H 7400 950 50  0001 C CNN
+F 3 "" H 7400 950 50  0001 C CNN
+	1    7400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D6
+U 1 1 60BD59C1
+P 7850 1650
+F 0 "D6" H 8194 1696 50  0000 L CNN
+F 1 "WS2812B" H 8194 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7900 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7950 1275 50  0001 L TNN
+	1    7850 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 60BD1BFA
+P 6800 1950
+F 0 "#PWR0115" H 6800 1700 50  0001 C CNN
+F 1 "GND" H 6805 1777 50  0000 C CNN
+F 2 "" H 6800 1950 50  0001 C CNN
+F 3 "" H 6800 1950 50  0001 C CNN
+	1    6800 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 6350 950 
+$Comp
+L Device:C C5
+U 1 1 60BD1BF3
+P 6350 1100
+F 0 "C5" H 6465 1146 50  0000 L CNN
+F 1 "C" H 6465 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6350 1100 50  0001 C CNN
+F 3 "~" H 6350 1100 50  0001 C CNN
+	1    6350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 950  6800 1350
+Wire Wire Line
+	6350 950  6800 950 
+$Comp
+L power:GND #PWR0114
+U 1 1 60BD1BEB
+P 6350 1250
+F 0 "#PWR0114" H 6350 1000 50  0001 C CNN
+F 1 "GND" H 6355 1077 50  0000 C CNN
+F 2 "" H 6350 1250 50  0001 C CNN
+F 3 "" H 6350 1250 50  0001 C CNN
+	1    6350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 60BD1BE5
+P 6350 950
+F 0 "#PWR0113" H 6350 800 50  0001 C CNN
+F 1 "+5V" H 6365 1123 50  0000 C CNN
+F 2 "" H 6350 950 50  0001 C CNN
+F 3 "" H 6350 950 50  0001 C CNN
+	1    6350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 60BD1BDF
+P 6800 1650
+F 0 "D5" H 7144 1696 50  0000 L CNN
+F 1 "WS2812B" H 7144 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6850 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6900 1275 50  0001 L TNN
+	1    6800 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 60BC8090
+P 5750 1950
+F 0 "#PWR0112" H 5750 1700 50  0001 C CNN
+F 1 "GND" H 5755 1777 50  0000 C CNN
+F 2 "" H 5750 1950 50  0001 C CNN
+F 3 "" H 5750 1950 50  0001 C CNN
+	1    5750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 5300 950 
+$Comp
+L Device:C C4
+U 1 1 60BC8089
+P 5300 1100
+F 0 "C4" H 5415 1146 50  0000 L CNN
+F 1 "C" H 5415 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5300 1100 50  0001 C CNN
+F 3 "~" H 5300 1100 50  0001 C CNN
+	1    5300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 950  5750 1350
+Wire Wire Line
+	5300 950  5750 950 
+$Comp
+L power:GND #PWR0111
+U 1 1 60BC8081
+P 5300 1250
+F 0 "#PWR0111" H 5300 1000 50  0001 C CNN
+F 1 "GND" H 5305 1077 50  0000 C CNN
+F 2 "" H 5300 1250 50  0001 C CNN
+F 3 "" H 5300 1250 50  0001 C CNN
+	1    5300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 60BC807B
+P 5300 950
+F 0 "#PWR0110" H 5300 800 50  0001 C CNN
+F 1 "+5V" H 5315 1123 50  0000 C CNN
+F 2 "" H 5300 950 50  0001 C CNN
+F 3 "" H 5300 950 50  0001 C CNN
+	1    5300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 60BC8075
+P 5750 1650
+F 0 "D4" H 6094 1696 50  0000 L CNN
+F 1 "WS2812B" H 6094 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5800 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5850 1275 50  0001 L TNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60BC40FC
+P 4750 1950
+F 0 "#PWR0109" H 4750 1700 50  0001 C CNN
+F 1 "GND" H 4755 1777 50  0000 C CNN
+F 2 "" H 4750 1950 50  0001 C CNN
+F 3 "" H 4750 1950 50  0001 C CNN
+	1    4750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 950 
+$Comp
+L Device:C C3
+U 1 1 60BC40F5
+P 4300 1100
+F 0 "C3" H 4415 1146 50  0000 L CNN
+F 1 "C" H 4415 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4300 1100 50  0001 C CNN
+F 3 "~" H 4300 1100 50  0001 C CNN
+	1    4300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 950  4750 1350
+Wire Wire Line
+	4300 950  4750 950 
+$Comp
+L power:GND #PWR0108
+U 1 1 60BC40ED
+P 4300 1250
+F 0 "#PWR0108" H 4300 1000 50  0001 C CNN
+F 1 "GND" H 4305 1077 50  0000 C CNN
+F 2 "" H 4300 1250 50  0001 C CNN
+F 3 "" H 4300 1250 50  0001 C CNN
+	1    4300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 60BC40E7
+P 4300 950
+F 0 "#PWR0107" H 4300 800 50  0001 C CNN
+F 1 "+5V" H 4315 1123 50  0000 C CNN
+F 2 "" H 4300 950 50  0001 C CNN
+F 3 "" H 4300 950 50  0001 C CNN
+	1    4300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 60BC40E1
+P 4750 1650
+F 0 "D3" H 5094 1696 50  0000 L CNN
+F 1 "WS2812B" H 5094 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4800 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4850 1275 50  0001 L TNN
+	1    4750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60BC155C
+P 3750 1950
+F 0 "#PWR0106" H 3750 1700 50  0001 C CNN
+F 1 "GND" H 3755 1777 50  0000 C CNN
+F 2 "" H 3750 1950 50  0001 C CNN
+F 3 "" H 3750 1950 50  0001 C CNN
+	1    3750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 3300 950 
+Wire Wire Line
+	3750 950  3750 1350
+Wire Wire Line
+	3300 950  3750 950 
+$Comp
+L power:GND #PWR0105
+U 1 1 60BC154D
+P 3300 1250
+F 0 "#PWR0105" H 3300 1000 50  0001 C CNN
+F 1 "GND" H 3305 1077 50  0000 C CNN
+F 2 "" H 3300 1250 50  0001 C CNN
+F 3 "" H 3300 1250 50  0001 C CNN
+	1    3300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 60BC1547
+P 3300 950
+F 0 "#PWR0104" H 3300 800 50  0001 C CNN
+F 1 "+5V" H 3315 1123 50  0000 C CNN
+F 2 "" H 3300 950 50  0001 C CNN
+F 3 "" H 3300 950 50  0001 C CNN
+	1    3300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D2
+U 1 1 60BC1541
+P 3750 1650
+F 0 "D2" H 4094 1696 50  0000 L CNN
+F 1 "WS2812B" H 4094 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3800 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3850 1275 50  0001 L TNN
+	1    3750 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60BAEDEE
+P 2750 1950
+F 0 "#PWR0103" H 2750 1700 50  0001 C CNN
+F 1 "GND" H 2755 1777 50  0000 C CNN
+F 2 "" H 2750 1950 50  0001 C CNN
+F 3 "" H 2750 1950 50  0001 C CNN
+	1    2750 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 950 
+Wire Wire Line
+	2750 950  2750 1350
+Wire Wire Line
+	2300 950  2750 950 
+$Comp
+L power:GND #PWR0102
+U 1 1 60B8E8B5
+P 2300 1250
+F 0 "#PWR0102" H 2300 1000 50  0001 C CNN
+F 1 "GND" H 2305 1077 50  0000 C CNN
+F 2 "" H 2300 1250 50  0001 C CNN
+F 3 "" H 2300 1250 50  0001 C CNN
+	1    2300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 60B8D536
+P 2300 950
+F 0 "#PWR0101" H 2300 800 50  0001 C CNN
+F 1 "+5V" H 2315 1123 50  0000 C CNN
+F 2 "" H 2300 950 50  0001 C CNN
+F 3 "" H 2300 950 50  0001 C CNN
+	1    2300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D1
+U 1 1 60B81652
+P 2750 1650
+F 0 "D1" H 3094 1696 50  0000 L CNN
+F 1 "WS2812B" H 3094 1605 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 2800 1350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2850 1275 50  0001 L TNN
+	1    2750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1650 2450 5100
+$Comp
+L Device:C C2
+U 1 1 60BC1555
+P 3300 1100
+F 0 "C2" H 3415 1146 50  0000 L CNN
+F 1 "C" H 3415 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 1100 50  0001 C CNN
+F 3 "~" H 3300 1100 50  0001 C CNN
+	1    3300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60BA7C54
+P 2300 1100
+F 0 "C1" H 2415 1146 50  0000 L CNN
+F 1 "C" H 2415 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 1100 50  0001 C CNN
+F 3 "~" H 2300 1100 50  0001 C CNN
+	1    2300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG3
+U 1 1 60C0EDC1
+P 850 1350
+F 0 "HG3" H 950 1353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 1308 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 1350 50  0001 C CNN
+F 3 "~" H 850 1350 50  0001 C CNN
+	1    850  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG4
+U 1 1 60C0F884
+P 1050 1550
+F 0 "HG4" H 1150 1553 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 1508 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 1550 50  0001 C CNN
+F 3 "~" H 1050 1550 50  0001 C CNN
+	1    1050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG5
+U 1 1 60C10553
+P 850 1950
+F 0 "HG5" H 950 1953 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 1908 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 1950 50  0001 C CNN
+F 3 "~" H 850 1950 50  0001 C CNN
+	1    850  1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG6
+U 1 1 60C11134
+P 1050 2150
+F 0 "HG6" H 1150 2153 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 2108 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 2150 50  0001 C CNN
+F 3 "~" H 1050 2150 50  0001 C CNN
+	1    1050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG8
+U 1 1 60C661D0
+P 1050 2750
+F 0 "HG8" H 1150 2753 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 2708 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 2750 50  0001 C CNN
+F 3 "~" H 1050 2750 50  0001 C CNN
+	1    1050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG9
+U 1 1 60C661DC
+P 850 3150
+F 0 "HG9" H 950 3153 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 3108 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 3150 50  0001 C CNN
+F 3 "~" H 850 3150 50  0001 C CNN
+	1    850  3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG10
+U 1 1 60C661E8
+P 1050 3350
+F 0 "HG10" H 1150 3353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 3308 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 3350 50  0001 C CNN
+F 3 "~" H 1050 3350 50  0001 C CNN
+	1    1050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG11
+U 1 1 60C661F4
+P 850 3750
+F 0 "HG11" H 950 3753 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 3708 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 3750 50  0001 C CNN
+F 3 "~" H 850 3750 50  0001 C CNN
+	1    850  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG12
+U 1 1 60C66200
+P 1050 3950
+F 0 "HG12" H 1150 3953 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 3908 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 3950 50  0001 C CNN
+F 3 "~" H 1050 3950 50  0001 C CNN
+	1    1050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 60C0E448
+P 1050 1050
+F 0 "#PWR0121" H 1050 800 50  0001 C CNN
+F 1 "GND" H 1055 877 50  0000 C CNN
+F 2 "" H 1050 1050 50  0001 C CNN
+F 3 "" H 1050 1050 50  0001 C CNN
+	1    1050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG2
+U 1 1 60C0E44E
+P 1050 950
+F 0 "HG2" H 1150 953 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 908 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 950 50  0001 C CNN
+F 3 "~" H 1050 950 50  0001 C CNN
+	1    1050 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG1
+U 1 1 60C005AB
+P 850 750
+F 0 "HG1" H 950 753 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 708 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 750 50  0001 C CNN
+F 3 "~" H 850 750 50  0001 C CNN
+	1    850  750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG7
+U 1 1 60C661C4
+P 850 2550
+F 0 "HG7" H 950 2553 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 2508 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 2550 50  0001 C CNN
+F 3 "~" H 850 2550 50  0001 C CNN
+	1    850  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 60BFF22B
+P 850 850
+F 0 "#PWR0120" H 850 600 50  0001 C CNN
+F 1 "GND" H 855 677 50  0000 C CNN
+F 2 "" H 850 850 50  0001 C CNN
+F 3 "" H 850 850 50  0001 C CNN
+	1    850  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 60C661FA
+P 1050 4050
+F 0 "#PWR0142" H 1050 3800 50  0001 C CNN
+F 1 "GND" H 1055 3877 50  0000 C CNN
+F 2 "" H 1050 4050 50  0001 C CNN
+F 3 "" H 1050 4050 50  0001 C CNN
+	1    1050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0143
+U 1 1 60BD973A
+P 850 4400
+F 0 "#PWR0143" H 850 4150 50  0001 C CNN
+F 1 "GND" H 855 4227 50  0000 C CNN
+F 2 "" H 850 4400 50  0001 C CNN
+F 3 "" H 850 4400 50  0001 C CNN
+	1    850  4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG13
+U 1 1 60BD9DA0
+P 850 4300
+F 0 "HG13" H 950 4303 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 4258 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 4300 50  0001 C CNN
+F 3 "~" H 850 4300 50  0001 C CNN
+	1    850  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG17
+U 1 1 60BD9DAA
+P 1050 4500
+F 0 "HG17" H 1150 4503 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 4458 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 4500 50  0001 C CNN
+F 3 "~" H 1050 4500 50  0001 C CNN
+	1    1050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 60BD9DB4
+P 1050 4600
+F 0 "#PWR0144" H 1050 4350 50  0001 C CNN
+F 1 "GND" H 1055 4427 50  0000 C CNN
+F 2 "" H 1050 4600 50  0001 C CNN
+F 3 "" H 1050 4600 50  0001 C CNN
+	1    1050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 60BDC8CD
+P 850 5000
+F 0 "#PWR0145" H 850 4750 50  0001 C CNN
+F 1 "GND" H 855 4827 50  0000 C CNN
+F 2 "" H 850 5000 50  0001 C CNN
+F 3 "" H 850 5000 50  0001 C CNN
+	1    850  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG14
+U 1 1 60BDCF67
+P 850 4900
+F 0 "HG14" H 950 4903 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 4858 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 4900 50  0001 C CNN
+F 3 "~" H 850 4900 50  0001 C CNN
+	1    850  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG18
+U 1 1 60BDCF71
+P 1050 5100
+F 0 "HG18" H 1150 5103 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 5058 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 5100 50  0001 C CNN
+F 3 "~" H 1050 5100 50  0001 C CNN
+	1    1050 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0146
+U 1 1 60BDCF7B
+P 1050 5200
+F 0 "#PWR0146" H 1050 4950 50  0001 C CNN
+F 1 "GND" H 1055 5027 50  0000 C CNN
+F 2 "" H 1050 5200 50  0001 C CNN
+F 3 "" H 1050 5200 50  0001 C CNN
+	1    1050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 60C86ECB
+P 3000 5550
+F 0 "JP4" V 3000 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 2955 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3000 5550 50  0001 C CNN
+F 3 "~" H 3000 5550 50  0001 C CNN
+	1    3000 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 60C86EC1
+P 2800 5550
+F 0 "JP3" V 2800 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 2755 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2800 5550 50  0001 C CNN
+F 3 "~" H 2800 5550 50  0001 C CNN
+	1    2800 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3000 5700 2900 5700
+Wire Wire Line
+	2900 5700 2800 5700
+Connection ~ 2900 5700
+$Comp
+L Mechanical:MountingHole_Pad HS2
+U 1 1 60C86EB4
+P 2900 5800
+F 0 "HS2" H 2800 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2800 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 2900 5800 50  0001 C CNN
+F 3 "~" H 2900 5800 50  0001 C CNN
+	1    2900 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 5200 3350 5200
+Wire Wire Line
+	2650 5200 3000 5200
+Connection ~ 3000 5200
+Wire Wire Line
+	3000 5400 3000 5200
+Wire Wire Line
+	2800 5100 3150 5100
+Wire Wire Line
+	2450 5100 2800 5100
+Connection ~ 2800 5100
+Wire Wire Line
+	2800 5100 2800 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 60CFC3D6
+P 2650 5550
+F 0 "JP2" V 2650 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 2605 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2650 5550 50  0001 C CNN
+F 3 "~" H 2650 5550 50  0001 C CNN
+	1    2650 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 60D13F96
+P 2450 5550
+F 0 "JP1" V 2450 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 2405 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 2450 5550 50  0001 C CNN
+F 3 "~" H 2450 5550 50  0001 C CNN
+	1    2450 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 5700 2550 5700
+Wire Wire Line
+	2550 5700 2450 5700
+Connection ~ 2550 5700
+$Comp
+L Mechanical:MountingHole_Pad HS1
+U 1 1 60CFC3DC
+P 2550 5800
+F 0 "HS1" H 2450 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 2450 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 2550 5800 50  0001 C CNN
+F 3 "~" H 2550 5800 50  0001 C CNN
+	1    2550 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 5400 2650 5200
+Connection ~ 2450 5100
+Wire Wire Line
+	2450 5100 2450 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP8
+U 1 1 60C92259
+P 3700 5550
+F 0 "JP8" V 3700 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 3655 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3700 5550 50  0001 C CNN
+F 3 "~" H 3700 5550 50  0001 C CNN
+	1    3700 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP7
+U 1 1 60C92857
+P 3500 5550
+F 0 "JP7" V 3500 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 3455 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3500 5550 50  0001 C CNN
+F 3 "~" H 3500 5550 50  0001 C CNN
+	1    3500 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3700 5700 3600 5700
+Wire Wire Line
+	3600 5700 3500 5700
+Connection ~ 3600 5700
+$Comp
+L Mechanical:MountingHole_Pad HS4
+U 1 1 60C92864
+P 3600 5800
+F 0 "HS4" H 3500 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3500 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 3600 5800 50  0001 C CNN
+F 3 "~" H 3600 5800 50  0001 C CNN
+	1    3600 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 5400 3700 5200
+Wire Wire Line
+	3500 5100 3500 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP6
+U 1 1 60C92870
+P 3350 5550
+F 0 "JP6" V 3350 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 3305 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3350 5550 50  0001 C CNN
+F 3 "~" H 3350 5550 50  0001 C CNN
+	1    3350 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP5
+U 1 1 60C9287A
+P 3150 5550
+F 0 "JP5" V 3150 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 3105 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3150 5550 50  0001 C CNN
+F 3 "~" H 3150 5550 50  0001 C CNN
+	1    3150 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 5700 3250 5700
+Wire Wire Line
+	3250 5700 3150 5700
+Connection ~ 3250 5700
+$Comp
+L Mechanical:MountingHole_Pad HS3
+U 1 1 60C92887
+P 3250 5800
+F 0 "HS3" H 3150 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3150 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 3250 5800 50  0001 C CNN
+F 3 "~" H 3250 5800 50  0001 C CNN
+	1    3250 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 5400 3350 5200
+Wire Wire Line
+	3150 5100 3150 5400
+Connection ~ 3150 5100
+Wire Wire Line
+	3150 5100 3500 5100
+Connection ~ 3350 5200
+Wire Wire Line
+	3350 5200 3700 5200
+Connection ~ 3500 5100
+Wire Wire Line
+	3500 5100 3850 5100
+Connection ~ 3700 5200
+Wire Wire Line
+	3700 5200 4050 5200
+$Comp
+L Jumper:SolderJumper_2_Open JP12
+U 1 1 60C99BFD
+P 4400 5550
+F 0 "JP12" V 4400 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4355 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4400 5550 50  0001 C CNN
+F 3 "~" H 4400 5550 50  0001 C CNN
+	1    4400 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP11
+U 1 1 60C9A277
+P 4200 5550
+F 0 "JP11" V 4200 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4155 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4200 5550 50  0001 C CNN
+F 3 "~" H 4200 5550 50  0001 C CNN
+	1    4200 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 5700 4300 5700
+Wire Wire Line
+	4300 5700 4200 5700
+Connection ~ 4300 5700
+$Comp
+L Mechanical:MountingHole_Pad HS6
+U 1 1 60C9A284
+P 4300 5800
+F 0 "HS6" H 4200 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4200 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 4300 5800 50  0001 C CNN
+F 3 "~" H 4300 5800 50  0001 C CNN
+	1    4300 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4400 5400 4400 5200
+Wire Wire Line
+	4200 5100 4200 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP10
+U 1 1 60C9A290
+P 4050 5550
+F 0 "JP10" V 4050 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4005 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4050 5550 50  0001 C CNN
+F 3 "~" H 4050 5550 50  0001 C CNN
+	1    4050 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP9
+U 1 1 60C9A29A
+P 3850 5550
+F 0 "JP9" V 3850 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 3805 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3850 5550 50  0001 C CNN
+F 3 "~" H 3850 5550 50  0001 C CNN
+	1    3850 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 5700 3950 5700
+Wire Wire Line
+	3950 5700 3850 5700
+Connection ~ 3950 5700
+$Comp
+L Mechanical:MountingHole_Pad HS5
+U 1 1 60C9A2A7
+P 3950 5800
+F 0 "HS5" H 3850 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 3850 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 3950 5800 50  0001 C CNN
+F 3 "~" H 3950 5800 50  0001 C CNN
+	1    3950 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4050 5400 4050 5200
+Wire Wire Line
+	3850 5100 3850 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 60C9A2B3
+P 5100 5550
+F 0 "JP16" V 5100 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 5055 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5100 5550 50  0001 C CNN
+F 3 "~" H 5100 5550 50  0001 C CNN
+	1    5100 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP15
+U 1 1 60C9A2BD
+P 4900 5550
+F 0 "JP15" V 4900 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4855 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4900 5550 50  0001 C CNN
+F 3 "~" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 5700 5000 5700
+Wire Wire Line
+	5000 5700 4900 5700
+Connection ~ 5000 5700
+$Comp
+L Mechanical:MountingHole_Pad HS8
+U 1 1 60C9A2CA
+P 5000 5800
+F 0 "HS8" H 4900 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4900 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5000 5800 50  0001 C CNN
+F 3 "~" H 5000 5800 50  0001 C CNN
+	1    5000 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 5400 5100 5200
+Wire Wire Line
+	4900 5100 4900 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP14
+U 1 1 60C9A2D6
+P 4750 5550
+F 0 "JP14" V 4750 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4705 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4750 5550 50  0001 C CNN
+F 3 "~" H 4750 5550 50  0001 C CNN
+	1    4750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP13
+U 1 1 60C9A2E0
+P 4550 5550
+F 0 "JP13" V 4550 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 4505 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 4550 5550 50  0001 C CNN
+F 3 "~" H 4550 5550 50  0001 C CNN
+	1    4550 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 5700 4650 5700
+Wire Wire Line
+	4650 5700 4550 5700
+Connection ~ 4650 5700
+$Comp
+L Mechanical:MountingHole_Pad HS7
+U 1 1 60C9A2ED
+P 4650 5800
+F 0 "HS7" H 4550 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 4550 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 4650 5800 50  0001 C CNN
+F 3 "~" H 4650 5800 50  0001 C CNN
+	1    4650 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 5400 4750 5200
+Wire Wire Line
+	4550 5100 4550 5400
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 4200 5100
+Connection ~ 4050 5200
+Wire Wire Line
+	4050 5200 4400 5200
+Connection ~ 4200 5100
+Wire Wire Line
+	4200 5100 4550 5100
+Connection ~ 4400 5200
+Wire Wire Line
+	4400 5200 4750 5200
+Connection ~ 4550 5100
+Wire Wire Line
+	4550 5100 4900 5100
+Connection ~ 4750 5200
+Wire Wire Line
+	4750 5200 5100 5200
+Connection ~ 4900 5100
+Wire Wire Line
+	4900 5100 5250 5100
+Connection ~ 5100 5200
+Wire Wire Line
+	5100 5200 5450 5200
+$Comp
+L Jumper:SolderJumper_2_Open JP20
+U 1 1 60CB25F0
+P 5800 5550
+F 0 "JP20" V 5800 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 5755 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5800 5550 50  0001 C CNN
+F 3 "~" H 5800 5550 50  0001 C CNN
+	1    5800 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP19
+U 1 1 60CB2D62
+P 5600 5550
+F 0 "JP19" V 5600 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 5555 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5600 5550 50  0001 C CNN
+F 3 "~" H 5600 5550 50  0001 C CNN
+	1    5600 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 5700 5700 5700
+Wire Wire Line
+	5700 5700 5600 5700
+Connection ~ 5700 5700
+$Comp
+L Mechanical:MountingHole_Pad HS10
+U 1 1 60CB2D6F
+P 5700 5800
+F 0 "HS10" H 5600 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5600 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5700 5800 50  0001 C CNN
+F 3 "~" H 5700 5800 50  0001 C CNN
+	1    5700 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 5400 5800 5200
+Wire Wire Line
+	5600 5100 5600 5400
+$Comp
+L Jumper:SolderJumper_2_Open JP18
+U 1 1 60CB2D7B
+P 5450 5550
+F 0 "JP18" V 5450 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 5405 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5450 5550 50  0001 C CNN
+F 3 "~" H 5450 5550 50  0001 C CNN
+	1    5450 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP17
+U 1 1 60CB2D85
+P 5250 5550
+F 0 "JP17" V 5250 5462 50  0001 R CNN
+F 1 "SolderJumper_2_Open" V 5205 5462 50  0001 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 5250 5550 50  0001 C CNN
+F 3 "~" H 5250 5550 50  0001 C CNN
+	1    5250 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5450 5700 5350 5700
+Wire Wire Line
+	5350 5700 5250 5700
+Connection ~ 5350 5700
+$Comp
+L Mechanical:MountingHole_Pad HS9
+U 1 1 60CB2D92
+P 5350 5800
+F 0 "HS9" H 5250 5803 50  0000 R CNN
+F 1 "MountingHole_Pad" H 5250 5848 50  0001 R CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 5350 5800 50  0001 C CNN
+F 3 "~" H 5350 5800 50  0001 C CNN
+	1    5350 5800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 5400 5450 5200
+Wire Wire Line
+	5250 5100 5250 5400
+Connection ~ 5250 5100
+Wire Wire Line
+	5250 5100 5600 5100
+Connection ~ 5450 5200
+Wire Wire Line
+	5450 5200 5800 5200
+Connection ~ 5800 5200
+$Comp
+L Mechanical:MountingHole_Pad HP12
+U 1 1 60C471C4
+P 1800 3750
+F 0 "HP12" H 1900 3753 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 3708 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 3750 50  0001 C CNN
+F 3 "~" H 1800 3750 50  0001 C CNN
+	1    1800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0135
+U 1 1 60C471EE
+P 1800 1650
+F 0 "#PWR0135" H 1800 1500 50  0001 C CNN
+F 1 "+5V" H 1815 1823 50  0000 C CNN
+F 2 "" H 1800 1650 50  0001 C CNN
+F 3 "" H 1800 1650 50  0001 C CNN
+	1    1800 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP9
+U 1 1 60C471E8
+P 1800 2100
+F 0 "HP9" H 1900 2103 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 2058 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 2100 50  0001 C CNN
+F 3 "~" H 1800 2100 50  0001 C CNN
+	1    1800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0134
+U 1 1 60C471E2
+P 1800 2200
+F 0 "#PWR0134" H 1800 2050 50  0001 C CNN
+F 1 "+5V" H 1815 2373 50  0000 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP10
+U 1 1 60C471DC
+P 1800 2650
+F 0 "HP10" H 1900 2653 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 2608 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 2650 50  0001 C CNN
+F 3 "~" H 1800 2650 50  0001 C CNN
+	1    1800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0133
+U 1 1 60C471D6
+P 1800 2750
+F 0 "#PWR0133" H 1800 2600 50  0001 C CNN
+F 1 "+5V" H 1815 2923 50  0000 C CNN
+F 2 "" H 1800 2750 50  0001 C CNN
+F 3 "" H 1800 2750 50  0001 C CNN
+	1    1800 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP11
+U 1 1 60C471D0
+P 1800 3200
+F 0 "HP11" H 1900 3203 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 3158 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 3200 50  0001 C CNN
+F 3 "~" H 1800 3200 50  0001 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0132
+U 1 1 60C471CA
+P 1800 3300
+F 0 "#PWR0132" H 1800 3150 50  0001 C CNN
+F 1 "+5V" H 1815 3473 50  0000 C CNN
+F 2 "" H 1800 3300 50  0001 C CNN
+F 3 "" H 1800 3300 50  0001 C CNN
+	1    1800 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0131
+U 1 1 60C471BE
+P 1800 3850
+F 0 "#PWR0131" H 1800 3700 50  0001 C CNN
+F 1 "+5V" H 1815 4023 50  0000 C CNN
+F 2 "" H 1800 3850 50  0001 C CNN
+F 3 "" H 1800 3850 50  0001 C CNN
+	1    1800 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP3
+U 1 1 60C17539
+P 1600 1900
+F 0 "HP3" H 1700 1903 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 1858 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 1900 50  0001 C CNN
+F 3 "~" H 1600 1900 50  0001 C CNN
+	1    1600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 60C1753F
+P 1600 2000
+F 0 "#PWR0129" H 1600 1850 50  0001 C CNN
+F 1 "+5V" H 1615 2173 50  0000 C CNN
+F 2 "" H 1600 2000 50  0001 C CNN
+F 3 "" H 1600 2000 50  0001 C CNN
+	1    1600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP4
+U 1 1 60C17FBE
+P 1600 2450
+F 0 "HP4" H 1700 2453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 2408 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 2450 50  0001 C CNN
+F 3 "~" H 1600 2450 50  0001 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0128
+U 1 1 60C17FC4
+P 1600 2550
+F 0 "#PWR0128" H 1600 2400 50  0001 C CNN
+F 1 "+5V" H 1615 2723 50  0000 C CNN
+F 2 "" H 1600 2550 50  0001 C CNN
+F 3 "" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP5
+U 1 1 60C185F1
+P 1600 3000
+F 0 "HP5" H 1700 3003 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 2958 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 3000 50  0001 C CNN
+F 3 "~" H 1600 3000 50  0001 C CNN
+	1    1600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 60C185F7
+P 1600 3100
+F 0 "#PWR0127" H 1600 2950 50  0001 C CNN
+F 1 "+5V" H 1615 3273 50  0000 C CNN
+F 2 "" H 1600 3100 50  0001 C CNN
+F 3 "" H 1600 3100 50  0001 C CNN
+	1    1600 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP6
+U 1 1 60C19238
+P 1600 3550
+F 0 "HP6" H 1700 3553 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 3508 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 3550 50  0001 C CNN
+F 3 "~" H 1600 3550 50  0001 C CNN
+	1    1600 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 60C1923E
+P 1600 3650
+F 0 "#PWR0126" H 1600 3500 50  0001 C CNN
+F 1 "+5V" H 1615 3823 50  0000 C CNN
+F 2 "" H 1600 3650 50  0001 C CNN
+F 3 "" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0147
+U 1 1 60CBBF7E
+P 1050 6350
+F 0 "#PWR0147" H 1050 6100 50  0001 C CNN
+F 1 "GND" H 1055 6177 50  0000 C CNN
+F 2 "" H 1050 6350 50  0001 C CNN
+F 3 "" H 1050 6350 50  0001 C CNN
+	1    1050 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG20
+U 1 1 60CBBF74
+P 1050 6250
+F 0 "HG20" H 1150 6253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 6208 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 6250 50  0001 C CNN
+F 3 "~" H 1050 6250 50  0001 C CNN
+	1    1050 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG16
+U 1 1 60CBBF6A
+P 850 6050
+F 0 "HG16" H 950 6053 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 6008 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 6050 50  0001 C CNN
+F 3 "~" H 850 6050 50  0001 C CNN
+	1    850  6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 60CBB788
+P 850 6150
+F 0 "#PWR0148" H 850 5900 50  0001 C CNN
+F 1 "GND" H 855 5977 50  0000 C CNN
+F 2 "" H 850 6150 50  0001 C CNN
+F 3 "" H 850 6150 50  0001 C CNN
+	1    850  6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0149
+U 1 1 60BE2057
+P 1050 5750
+F 0 "#PWR0149" H 1050 5500 50  0001 C CNN
+F 1 "GND" H 1055 5577 50  0000 C CNN
+F 2 "" H 1050 5750 50  0001 C CNN
+F 3 "" H 1050 5750 50  0001 C CNN
+	1    1050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG19
+U 1 1 60BE204D
+P 1050 5650
+F 0 "HG19" H 1150 5653 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1150 5608 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1050 5650 50  0001 C CNN
+F 3 "~" H 1050 5650 50  0001 C CNN
+	1    1050 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HG15
+U 1 1 60BE2043
+P 850 5450
+F 0 "HG15" H 950 5453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 950 5408 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 850 5450 50  0001 C CNN
+F 3 "~" H 850 5450 50  0001 C CNN
+	1    850  5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 60BE1975
+P 850 5550
+F 0 "#PWR0150" H 850 5300 50  0001 C CNN
+F 1 "GND" H 855 5377 50  0000 C CNN
+F 2 "" H 850 5550 50  0001 C CNN
+F 3 "" H 850 5550 50  0001 C CNN
+	1    850  5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 1650 8150 2200
+Wire Wire Line
+	8150 2200 2900 2200
+Wire Wire Line
+	2900 2200 2900 3150
+Wire Wire Line
+	7900 3150 8350 3150
+Wire Wire Line
+	5850 3150 6250 3150
+Wire Wire Line
+	4850 3150 5250 3150
+Wire Wire Line
+	3850 3150 4250 3150
+$Comp
+L power:GND #PWR0151
+U 1 1 60DC4C7E
+P 8650 3450
+F 0 "#PWR0151" H 8650 3200 50  0001 C CNN
+F 1 "GND" H 8655 3277 50  0000 C CNN
+F 2 "" H 8650 3450 50  0001 C CNN
+F 3 "" H 8650 3450 50  0001 C CNN
+	1    8650 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 2450
+$Comp
+L Device:C C12
+U 1 1 60DC4C89
+P 8200 2600
+F 0 "C12" H 8315 2646 50  0000 L CNN
+F 1 "C" H 8315 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8200 2600 50  0001 C CNN
+F 3 "~" H 8200 2600 50  0001 C CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 2450 8650 2850
+Wire Wire Line
+	8200 2450 8650 2450
+$Comp
+L power:GND #PWR0152
+U 1 1 60DC4C95
+P 8200 2750
+F 0 "#PWR0152" H 8200 2500 50  0001 C CNN
+F 1 "GND" H 8205 2577 50  0000 C CNN
+F 2 "" H 8200 2750 50  0001 C CNN
+F 3 "" H 8200 2750 50  0001 C CNN
+	1    8200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0153
+U 1 1 60DC4C9F
+P 8200 2450
+F 0 "#PWR0153" H 8200 2300 50  0001 C CNN
+F 1 "+5V" H 8215 2623 50  0000 C CNN
+F 2 "" H 8200 2450 50  0001 C CNN
+F 3 "" H 8200 2450 50  0001 C CNN
+	1    8200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D12
+U 1 1 60DC4CA9
+P 8650 3150
+F 0 "D12" H 8994 3196 50  0000 L CNN
+F 1 "WS2812B" H 8994 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8700 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8750 2775 50  0001 L TNN
+	1    8650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 60DC4CB3
+P 7600 3450
+F 0 "#PWR0154" H 7600 3200 50  0001 C CNN
+F 1 "GND" H 7605 3277 50  0000 C CNN
+F 2 "" H 7600 3450 50  0001 C CNN
+F 3 "" H 7600 3450 50  0001 C CNN
+	1    7600 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 2450
+$Comp
+L Device:C C11
+U 1 1 60DC4CBE
+P 7150 2600
+F 0 "C11" H 7265 2646 50  0000 L CNN
+F 1 "C" H 7265 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7150 2600 50  0001 C CNN
+F 3 "~" H 7150 2600 50  0001 C CNN
+	1    7150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 2450 7600 2850
+Wire Wire Line
+	7150 2450 7600 2450
+$Comp
+L power:GND #PWR0155
+U 1 1 60DC4CCA
+P 7150 2750
+F 0 "#PWR0155" H 7150 2500 50  0001 C CNN
+F 1 "GND" H 7155 2577 50  0000 C CNN
+F 2 "" H 7150 2750 50  0001 C CNN
+F 3 "" H 7150 2750 50  0001 C CNN
+	1    7150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0156
+U 1 1 60DC4CD4
+P 7150 2450
+F 0 "#PWR0156" H 7150 2300 50  0001 C CNN
+F 1 "+5V" H 7165 2623 50  0000 C CNN
+F 2 "" H 7150 2450 50  0001 C CNN
+F 3 "" H 7150 2450 50  0001 C CNN
+	1    7150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D11
+U 1 1 60DC4CDE
+P 7600 3150
+F 0 "D11" H 7944 3196 50  0000 L CNN
+F 1 "WS2812B" H 7944 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7650 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7700 2775 50  0001 L TNN
+	1    7600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 60DC4CE8
+P 6550 3450
+F 0 "#PWR0157" H 6550 3200 50  0001 C CNN
+F 1 "GND" H 6555 3277 50  0000 C CNN
+F 2 "" H 6550 3450 50  0001 C CNN
+F 3 "" H 6550 3450 50  0001 C CNN
+	1    6550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 6100 2450
+$Comp
+L Device:C C10
+U 1 1 60DC4CF3
+P 6100 2600
+F 0 "C10" H 6215 2646 50  0000 L CNN
+F 1 "C" H 6215 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6100 2600 50  0001 C CNN
+F 3 "~" H 6100 2600 50  0001 C CNN
+	1    6100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2450 6550 2850
+Wire Wire Line
+	6100 2450 6550 2450
+$Comp
+L power:GND #PWR0158
+U 1 1 60DC4CFF
+P 6100 2750
+F 0 "#PWR0158" H 6100 2500 50  0001 C CNN
+F 1 "GND" H 6105 2577 50  0000 C CNN
+F 2 "" H 6100 2750 50  0001 C CNN
+F 3 "" H 6100 2750 50  0001 C CNN
+	1    6100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0159
+U 1 1 60DC4D09
+P 6100 2450
+F 0 "#PWR0159" H 6100 2300 50  0001 C CNN
+F 1 "+5V" H 6115 2623 50  0000 C CNN
+F 2 "" H 6100 2450 50  0001 C CNN
+F 3 "" H 6100 2450 50  0001 C CNN
+	1    6100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D10
+U 1 1 60DC4D13
+P 6550 3150
+F 0 "D10" H 6894 3196 50  0000 L CNN
+F 1 "WS2812B" H 6894 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6600 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6650 2775 50  0001 L TNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0160
+U 1 1 60DC4D1D
+P 5550 3450
+F 0 "#PWR0160" H 5550 3200 50  0001 C CNN
+F 1 "GND" H 5555 3277 50  0000 C CNN
+F 2 "" H 5550 3450 50  0001 C CNN
+F 3 "" H 5550 3450 50  0001 C CNN
+	1    5550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 2450
+$Comp
+L Device:C C9
+U 1 1 60DC4D28
+P 5100 2600
+F 0 "C9" H 5215 2646 50  0000 L CNN
+F 1 "C" H 5215 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5100 2600 50  0001 C CNN
+F 3 "~" H 5100 2600 50  0001 C CNN
+	1    5100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2450 5550 2850
+Wire Wire Line
+	5100 2450 5550 2450
+$Comp
+L power:GND #PWR0161
+U 1 1 60DC4D34
+P 5100 2750
+F 0 "#PWR0161" H 5100 2500 50  0001 C CNN
+F 1 "GND" H 5105 2577 50  0000 C CNN
+F 2 "" H 5100 2750 50  0001 C CNN
+F 3 "" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0162
+U 1 1 60DC4D3E
+P 5100 2450
+F 0 "#PWR0162" H 5100 2300 50  0001 C CNN
+F 1 "+5V" H 5115 2623 50  0000 C CNN
+F 2 "" H 5100 2450 50  0001 C CNN
+F 3 "" H 5100 2450 50  0001 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D9
+U 1 1 60DC4D48
+P 5550 3150
+F 0 "D9" H 5894 3196 50  0000 L CNN
+F 1 "WS2812B" H 5894 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5600 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5650 2775 50  0001 L TNN
+	1    5550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0163
+U 1 1 60DC4D52
+P 4550 3450
+F 0 "#PWR0163" H 4550 3200 50  0001 C CNN
+F 1 "GND" H 4555 3277 50  0000 C CNN
+F 2 "" H 4550 3450 50  0001 C CNN
+F 3 "" H 4550 3450 50  0001 C CNN
+	1    4550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4100 2450
+Wire Wire Line
+	4550 2450 4550 2850
+Wire Wire Line
+	4100 2450 4550 2450
+$Comp
+L power:GND #PWR0164
+U 1 1 60DC4D5F
+P 4100 2750
+F 0 "#PWR0164" H 4100 2500 50  0001 C CNN
+F 1 "GND" H 4105 2577 50  0000 C CNN
+F 2 "" H 4100 2750 50  0001 C CNN
+F 3 "" H 4100 2750 50  0001 C CNN
+	1    4100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0165
+U 1 1 60DC4D69
+P 4100 2450
+F 0 "#PWR0165" H 4100 2300 50  0001 C CNN
+F 1 "+5V" H 4115 2623 50  0000 C CNN
+F 2 "" H 4100 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D8
+U 1 1 60DC4D73
+P 4550 3150
+F 0 "D8" H 4894 3196 50  0000 L CNN
+F 1 "WS2812B" H 4894 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 4600 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 2775 50  0001 L TNN
+	1    4550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 60DC4D7D
+P 3550 3450
+F 0 "#PWR0166" H 3550 3200 50  0001 C CNN
+F 1 "GND" H 3555 3277 50  0000 C CNN
+F 2 "" H 3550 3450 50  0001 C CNN
+F 3 "" H 3550 3450 50  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 2450
+Wire Wire Line
+	3550 2450 3550 2850
+Wire Wire Line
+	3100 2450 3550 2450
+$Comp
+L power:GND #PWR0167
+U 1 1 60DC4D8A
+P 3100 2750
+F 0 "#PWR0167" H 3100 2500 50  0001 C CNN
+F 1 "GND" H 3105 2577 50  0000 C CNN
+F 2 "" H 3100 2750 50  0001 C CNN
+F 3 "" H 3100 2750 50  0001 C CNN
+	1    3100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0168
+U 1 1 60DC4D94
+P 3100 2450
+F 0 "#PWR0168" H 3100 2300 50  0001 C CNN
+F 1 "+5V" H 3115 2623 50  0000 C CNN
+F 2 "" H 3100 2450 50  0001 C CNN
+F 3 "" H 3100 2450 50  0001 C CNN
+	1    3100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D7
+U 1 1 60DC4D9E
+P 3550 3150
+F 0 "D7" H 3894 3196 50  0000 L CNN
+F 1 "WS2812B" H 3894 3105 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 3600 2850 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3650 2775 50  0001 L TNN
+	1    3550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60DC4DA9
+P 4100 2600
+F 0 "C8" H 4215 2646 50  0000 L CNN
+F 1 "C" H 4215 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4100 2600 50  0001 C CNN
+F 3 "~" H 4100 2600 50  0001 C CNN
+	1    4100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60DC4DB3
+P 3100 2600
+F 0 "C7" H 3215 2646 50  0000 L CNN
+F 1 "C" H 3215 2555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3100 2600 50  0001 C CNN
+F 3 "~" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3150 2900 3150
+Wire Wire Line
+	5800 5200 8950 5200
+Wire Wire Line
+	8950 3150 8950 5200
+$Comp
+L power:+5V #PWR0169
+U 1 1 60E060D9
+P 1600 4250
+F 0 "#PWR0169" H 1600 4100 50  0001 C CNN
+F 1 "+5V" H 1615 4423 50  0000 C CNN
+F 2 "" H 1600 4250 50  0001 C CNN
+F 3 "" H 1600 4250 50  0001 C CNN
+	1    1600 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP13
+U 1 1 60E06B1B
+P 1600 4150
+F 0 "HP13" H 1700 4153 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 4108 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 4150 50  0001 C CNN
+F 3 "~" H 1600 4150 50  0001 C CNN
+	1    1600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP17
+U 1 1 60E06B25
+P 1800 4350
+F 0 "HP17" H 1900 4353 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 4308 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 4350 50  0001 C CNN
+F 3 "~" H 1800 4350 50  0001 C CNN
+	1    1800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0170
+U 1 1 60E06B39
+P 1800 4450
+F 0 "#PWR0170" H 1800 4300 50  0001 C CNN
+F 1 "+5V" H 1815 4623 50  0000 C CNN
+F 2 "" H 1800 4450 50  0001 C CNN
+F 3 "" H 1800 4450 50  0001 C CNN
+	1    1800 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP18
+U 1 1 60E06B43
+P 1800 4900
+F 0 "HP18" H 1900 4903 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 4858 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 4900 50  0001 C CNN
+F 3 "~" H 1800 4900 50  0001 C CNN
+	1    1800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0171
+U 1 1 60E06B4D
+P 1800 5000
+F 0 "#PWR0171" H 1800 4850 50  0001 C CNN
+F 1 "+5V" H 1815 5173 50  0000 C CNN
+F 2 "" H 1800 5000 50  0001 C CNN
+F 3 "" H 1800 5000 50  0001 C CNN
+	1    1800 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP19
+U 1 1 60E06B57
+P 1800 5450
+F 0 "HP19" H 1900 5453 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 5408 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 5450 50  0001 C CNN
+F 3 "~" H 1800 5450 50  0001 C CNN
+	1    1800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0172
+U 1 1 60E06B61
+P 1800 5550
+F 0 "#PWR0172" H 1800 5400 50  0001 C CNN
+F 1 "+5V" H 1815 5723 50  0000 C CNN
+F 2 "" H 1800 5550 50  0001 C CNN
+F 3 "" H 1800 5550 50  0001 C CNN
+	1    1800 5550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP20
+U 1 1 60E06B6B
+P 1800 6000
+F 0 "HP20" H 1900 6003 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 5958 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1800 6000 50  0001 C CNN
+F 3 "~" H 1800 6000 50  0001 C CNN
+	1    1800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0173
+U 1 1 60E06B75
+P 1800 6100
+F 0 "#PWR0173" H 1800 5950 50  0001 C CNN
+F 1 "+5V" H 1815 6273 50  0000 C CNN
+F 2 "" H 1800 6100 50  0001 C CNN
+F 3 "" H 1800 6100 50  0001 C CNN
+	1    1800 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP14
+U 1 1 60E06B89
+P 1600 4700
+F 0 "HP14" H 1700 4703 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 4658 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 4700 50  0001 C CNN
+F 3 "~" H 1600 4700 50  0001 C CNN
+	1    1600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0174
+U 1 1 60E06B93
+P 1600 4800
+F 0 "#PWR0174" H 1600 4650 50  0001 C CNN
+F 1 "+5V" H 1615 4973 50  0000 C CNN
+F 2 "" H 1600 4800 50  0001 C CNN
+F 3 "" H 1600 4800 50  0001 C CNN
+	1    1600 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP15
+U 1 1 60E06B9D
+P 1600 5250
+F 0 "HP15" H 1700 5253 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 5208 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 5250 50  0001 C CNN
+F 3 "~" H 1600 5250 50  0001 C CNN
+	1    1600 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0175
+U 1 1 60E06BA7
+P 1600 5350
+F 0 "#PWR0175" H 1600 5200 50  0001 C CNN
+F 1 "+5V" H 1615 5523 50  0000 C CNN
+F 2 "" H 1600 5350 50  0001 C CNN
+F 3 "" H 1600 5350 50  0001 C CNN
+	1    1600 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad HP16
+U 1 1 60E06BB1
+P 1600 5800
+F 0 "HP16" H 1700 5803 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1700 5758 50  0001 L CNN
+F 2 "Connector_Wire:SolderWire-0.1sqmm_1x01_D0.4mm_OD1mm" H 1600 5800 50  0001 C CNN
+F 3 "~" H 1600 5800 50  0001 C CNN
+	1    1600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0176
+U 1 1 60E06BBB
+P 1600 5900
+F 0 "#PWR0176" H 1600 5750 50  0001 C CNN
+F 1 "+5V" H 1615 6073 50  0000 C CNN
+F 2 "" H 1600 5900 50  0001 C CNN
+F 3 "" H 1600 5900 50  0001 C CNN
+	1    1600 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 1650 6500 1650
+$EndSCHEMATC
